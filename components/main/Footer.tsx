@@ -1,9 +1,10 @@
 import React from "react";
 import {
-  RxGithubLogo,
-  RxInstagramLogo,
-  RxLinkedinLogo,
-} from "react-icons/rx";
+    
+    RxGithubLogo,
+    RxInstagramLogo,
+    RxLinkedinLogo,
+  } from "react-icons/rx";
 
 import { SiLeetcode,SiGeeksforgeeks,SiCodechef } from "react-icons/si";
 
@@ -16,10 +17,10 @@ const Footer = () => {
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Coding Profiles</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    <a href="https://github.com/Arunjagan12" style={{ cursor: 'pointer' }} className="flex flex-row items-center my-[15px]">
                         <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Github</span>    
-                    </p>
+                    <span className="text-[15px] ml-[6px]">GitHub</span>   
+                    </a>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <SiLeetcode />
                         <span className="text-[15px] ml-[6px]">LeetCode</span>    

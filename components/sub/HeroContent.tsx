@@ -32,11 +32,11 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
-          <span>
+          <span className="font-mono">
            Hi,
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              I'm{" "}
+              I&apos;m{" "}
             </span>
             Arun
           </span>
@@ -47,7 +47,7 @@ const HeroContent = () => {
           className="text-lg font-mono text-gray-400 my-5 max-w-[600px]"
         >
           Welcome to the realm of captivating digital experiences!
-          I'm a tech enthusiast specializing in front-end development, dedicated to shaping sleek, user-centric web and mobile applications.
+          I&apos;m a tech enthusiast specializing in front-end development, dedicated to shaping sleek, user-centric web and mobile applications.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
