@@ -3,7 +3,7 @@ import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 import Image from "next/image";
-
+import Footer from "@/components/main/Footer";
 export default function Home() {
   return (
     <main className="h-full w-full">
@@ -12,6 +12,7 @@ export default function Home() {
         <Skills />
         <Encryption />
         <Projects />
+        <Footer />
       </div>
     </main>
   );

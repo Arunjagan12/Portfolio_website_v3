@@ -6,7 +6,7 @@ import {
     RxLinkedinLogo,
   } from "react-icons/rx";
 
-import { SiLeetcode,SiGeeksforgeeks,SiCodechef } from "react-icons/si";
+import { SiLeetcode,SiGeeksforgeeks,SiCodechef } from 'react-icons/si';
 
 const Footer = () => {
   return (
@@ -17,9 +17,9 @@ const Footer = () => {
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Coding Profiles</div>
-                    <a href="https://github.com/Arunjagan12" style={{ cursor: 'pointer' }} className="flex flex-row items-center my-[15px]">
-                        <RxGithubLogo />
-                    <span className="text-[15px] ml-[6px]">GitHub</span>   
+                    <a href="https://github.com/Arunjagan12" className="flex flex-row items-center my-[15px] cursor-pointer">
+                      <RxGithubLogo />  
+                      <span className="text-[15px] ml-[6px]">Github</span>    
                     </a>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <SiLeetcode />
