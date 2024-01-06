@@ -4,6 +4,8 @@ import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 import Image from "next/image";
 import Footer from "@/components/main/Footer";
+import Contact from "@/components/main/contact";
+
 export default function Home() {
   return (
     <main className="h-full w-full">
@@ -11,7 +13,8 @@ export default function Home() {
         <Hero />
         <Skills />
         <Encryption />
-        <Projects />
+        <Projects />  
+        <Contact />
         <Footer />
       </div>
     </main>
